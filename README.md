@@ -30,7 +30,7 @@ src="AntrContextMenu.js" type="text/javascript"
 }
 
 # Example Usage
-div id="Content1"
+<div id="Content1"></div>
 
 $('#Content1').antrContextMenu({
 
