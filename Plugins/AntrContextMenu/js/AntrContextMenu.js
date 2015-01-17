@@ -47,7 +47,7 @@ jQuery.fn.antrContextMenu = function (Data) {
         var bg = $('<div id="' + e.target.id + "_contextMenuDiv" + '" ></div>')
           .css({ left: 0, top: 0, width: '100%', height: '100%', position: 'absolute', zIndex: 1000000 })
           .appendTo(document.body)
-          .bind('contextmenu dblclick', function () {
+          .bind('contextmenu click', function () {
               bg.remove();
               contextMenu.remove();
               return false;
