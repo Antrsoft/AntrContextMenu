@@ -76,9 +76,9 @@ jQuery.fn.antrContextMenu = function (Data) {
             if (item.text) {
                 var row = $('<a tabindex="-1" id="' + item.id + '" style="padding-left:5px;"><span style="padding-left:5px;">' + item.text + '</span></a>');
                 // Add contextMenu item img
-                if (item.img) {
+                if (item.imageUrl) {
                     var img = $('<img>');
-                    img.attr('src', item.img);
+                    img.attr('src', item.imageUrl);
                     img.insertBefore(row.find('span'));
                 }
                 // Add contextMenu item isDisabled control
