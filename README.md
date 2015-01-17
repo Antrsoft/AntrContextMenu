@@ -24,7 +24,7 @@ src="AntrContextMenu.js" type="text/javascript"
 
   id: 'SomeItem',
   text: 'Some Item',
-  img: './plugins/AntrContextMenu/img/shopping-basket.png', 
+  imageUrl: './plugins/AntrContextMenu/img/shopping-basket.png', 
   isDisabled: true,
   items : [] // optional parameter
 }
@@ -36,16 +36,16 @@ $('#Content1').antrContextMenu({
 
                 title: 'Contex Menu',
                 items: [
-                  { id: 'SomeItem', text: 'Some Item', img: './plugins/AntrContextMenu/img/shopping-basket.png', isDisabled: true },
-                  { id: 'AnotherThing', text: 'Another Thing', img: './plugins/AntrContextMenu/img/receipt-text.png' },
-                  { id: 'BlahBlah', text: 'Blah Blah', img: './plugins/AntrContextMenu/img/book-open-list.png' },
+                  { id: 'SomeItem', text: 'Some Item', imageUrl: './plugins/AntrContextMenu/img/shopping-basket.png', isDisabled: true },
+                  { id: 'AnotherThing', text: 'Another Thing', imageUrl: './plugins/AntrContextMenu/img/receipt-text.png' },
+                  { id: 'BlahBlah', text: 'Blah Blah', imageUrl: './plugins/AntrContextMenu/img/book-open-list.png' },
                   null, // Separator
-                  { id: 'Sheep', text: 'Sheep', img: './plugins/AntrContextMenu/img/application-monitor.png' },
-                  { id: 'Cheese', text: 'Cheese', img: './plugins/AntrContextMenu/img/bin-metal.png' },
-                  { id: 'Bacon', text: 'Bacon', img: './plugins/AntrContextMenu/img/magnifier-zoom-actual-equal.png' },
+                  { id: 'Sheep', text: 'Sheep', imageUrl: './plugins/AntrContextMenu/img/application-monitor.png' },
+                  { id: 'Cheese', text: 'Cheese', imageUrl: './plugins/AntrContextMenu/img/bin-metal.png' },
+                  { id: 'Bacon', text: 'Bacon', imageUrl: './plugins/AntrContextMenu/img/magnifier-zoom-actual-equal.png' },
                   null, // Separator
-                  { id: 'Onwards', text: 'Onwards', img: './plugins/AntrContextMenu/img/application-table.png' },
-                  { id: 'Flutters', text: 'Flutters', img: './plugins/AntrContextMenu/img/cassette.png', isDisabled: true }
+                  { id: 'Onwards', text: 'Onwards', imageUrl: './plugins/AntrContextMenu/img/application-table.png' },
+                  { id: 'Flutters', text: 'Flutters', imageUrl: './plugins/AntrContextMenu/img/cassette.png', isDisabled: true }
                 ],
                 click: Content1Event
             });
